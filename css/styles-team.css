@@ -1,0 +1,29 @@
+.team-details {
+  padding-top: 2em;
+}
+
+.team-member-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.team-member-details{
+  text-align: center;
+  line-height: 1.5em;
+}
+.team-member-details p {
+  color: #999;
+}
+@media screen and (min-width: 576px) {
+  .team-member-image {
+    width: 200px;
+  }
+  .team-member-details{
+    text-align: inherit;
+  }
+  .team-member-details{
+    line-height: 2em;
+  }
+}
