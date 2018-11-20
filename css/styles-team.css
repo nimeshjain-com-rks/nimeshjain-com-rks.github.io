@@ -1,0 +1,34 @@
+.team-details {
+  padding-top: 2em;
+}
+
+.team-member-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+.team-member-details{
+  text-align: center;
+  line-height: 1.5em;
+}
+h3.team-member-name {
+  font-size: 21px;
+}
+.team-member-details p {
+  color: #999;
+}
+@media screen and (min-width: 576px) {
+  .team-member-image {
+    width: 200px;
+  }
+  .team-member-details{
+    text-align: inherit;
+    line-height: 2em;
+  }
+  h3.team-member-name {
+    font-size: 22px;
+  }
+}
